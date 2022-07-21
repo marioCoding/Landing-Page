@@ -1,0 +1,24 @@
+/* Stylesheet for my Landing Page */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FFE6C0;
+}
+h1 {
+    text-align: center;
+    background-color: #ffad9b;
+    padding: 1em;
+    margin: -.5em;
+}
+nav {
+    text-align: center;
+}
+.contactList {
+    padding: 5px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #A3E9FF;
+}
