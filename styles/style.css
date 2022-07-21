@@ -8,7 +8,7 @@ header {
     text-align: center;
     background-color: #ffad9b;
     padding: 1em;
-    margin: -.5em;
+    margin: -.5em -.5em 0 -.5em;
 }
 nav {
     text-align: center;
@@ -17,9 +17,17 @@ nav {
     padding: 5px;
     list-style: none;
 }
+h2 {
+    background-color: #C1F0FF;
+    padding: .2em;
+    border-radius: .5em;
+}
 a {
     text-decoration: none;
     color: #A3E9FF;
+}
+section {
+    padding: 1em;
 }
 
 @media (min-width: 720px) {
