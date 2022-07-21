@@ -4,7 +4,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #FFE6C0;
 }
-h1 {
+header {
     text-align: center;
     background-color: #ffad9b;
     padding: 1em;
@@ -17,8 +17,29 @@ nav {
     padding: 5px;
     list-style: none;
 }
-
 a {
     text-decoration: none;
     color: #A3E9FF;
+}
+
+@media (min-width: 720px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: larger;
+    }
+    header {
+        grid-column: span 2;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: xx-large;
+    }
+    header {
+        grid-column: span 2;
+    }
 }
