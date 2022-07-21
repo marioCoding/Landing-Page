@@ -10,8 +10,23 @@ header {
     padding: 1em;
     margin: -.5em -.5em 0 -.5em;
 }
+h1 {
+    border-style: dashed;
+    border-radius: .5em;
+    border-color: #C1F0FF;
+    border-width: .1em;
+    padding-left: -5em;
+}
 nav {
+    background: rgb(163,233,255);
+    background: linear-gradient(180deg, rgba(163,233,255,1) 0%, rgba(193,240,255,1) 35%, rgba(255,230,192,1) 78%, rgba(255,173,155,1) 100%);
+    margin: -1em -.5em 0 -.5em;
+}
+.navList {
     text-align: center;
+    display: inline-block;
+    list-style: none;
+    padding: .5em 2em 0 2em;
 }
 .contactList {
     padding: 5px;
@@ -39,6 +54,9 @@ section {
     header {
         grid-column: span 2;
     }
+    nav {
+        grid-column: span 2;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -48,6 +66,9 @@ section {
         font-size: xx-large;
     }
     header {
+        grid-column: span 2;
+    }
+    nav {
         grid-column: span 2;
     }
 }
